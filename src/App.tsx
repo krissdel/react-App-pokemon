@@ -11,8 +11,9 @@ const App: FunctionComponent = () => {
             <div>
                 {/* la barre de navigation commun a toutes les pages */}
                 <nav>
-                    <div className="nav-wrapper teal">
-                        <Link to="/" className="brand-logo center">Pokédex</Link>
+                    <div className="nav-wrapper pink">
+                    <img src="../assets/images/logo.png" alt="logo" className="img" />
+                        <Link to="/" className="brand-logo center">Meet me up !!!..</Link>
                     </div>
                 </nav>
                 {/* { le systeme de gestion des routes de notre application} */}
