@@ -4,7 +4,7 @@ import "./pokemon-card.css";
 import formatDate from "../helpers/format-date";
 import formatType from "../helpers/format-type";
 import { useHistory } from "react-router-dom";
-// test
+
 type Props = {
   pokemon: Pokemon;
   borderColor?: string;
